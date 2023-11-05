@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RT-CANE TILAPIA INCUBATOR SYSTEM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>	
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://ternakanikan.com/storage/2021/08/ikan-tilapia-sesuai-diternak.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>About</p>
+  </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-camera w3-xxlarge"></i>
+    <p>Camera</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-thermometer w3-xxlarge"></i>
+    <p>Temperature & pH</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+  </div> 
+</div>
+
+<!-- Page Content  -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Welcome</span> to RT-CANE Tilapia Incubator System</h1>
+    <p>Real time condition & data collected.</p>
+    <img src="https://ternakanikan.com/storage/2021/08/ikan-tilapia-sesuai-diternak.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Pengenalan</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Industri Akuakultur memberikan peranan sebagai pembekal sumber nutrien protein kepada manusia dan juga sebagai bisnes ataupun perniagaan bagi menghasilkan keuntungan. Industri akuakultur telah berkembang pesat di rantau Asia termasuk Malaysia, buktinya jumlah sumber makanan daripada hasil akuakultur telah meningkat daripada 52,051,000 tan metrik pada tahun 2014 kepada 62,821,00 tan metrik pada tahun 2016 (Perangkaan Tahunan Jabatan Perikanan 2014 dan Dasar Agro Makanan Negara 2015). Dalam membekalkan sumber protein yang cukup dan banyak kepada manusia, industri akuakultur perlu menghasilkan dan mengeluarkan produk akuakultur dengan kadar yang cepat dan efisien. Selain daripada itu, industri akuakultur juga membantu dalam menambah pendapatan negara. Pada tahun 2020, pengeluaran akuakultur telah berjumlah sebanyak 1,117.45 tan metrik metrik dengan nilai jualan sebanyak RM 26,580,399.26 (Lembaga Kemajuan Ikan Malaysia, 2020). Menurut Timbalan Menteri Pertanian dan Industri Makanan iaitu Datuk Seri Ahmad Hamzah, beliau berkata bahawa subsektor akuakultur telah mencatatkan pengeluaran sebanyak 400,000 tan metrik yang bernilai RM 3.6 billion iaitu 22 peratus daripada pengeluaran ikan negara (Roslan, 2022). Beliau turut berkata bahawa pengeluaran utama negara iaitu ikan keli, tilapia merah, patin, tilapia hitam dan udang galah masing-masing adalah sebanyak 29,000 tan metrik, 28,000 tan metrik, 18,000 tan metrik, 3,000 tan metrik dan 190 tan metrik. Jika dinilai dari segi harga pula masing-masing bernilai RM129,000, RM290,000, RM132,000, RM29,000 dan RM12,000 (Roslan, 2022). Ini jelas menandakan betapa sektor akuakultur memainkan peranan yang penting dalam memastikan pendapatan negara di tahap yang lebih stabil dan kukuh jika dilaksanakan. 
+     Natijahnya, sektor akuakultur perlu diperkasakan lagi dari segi pengeluarannya agar dapat membantu dalam menampung keperluan protein kepada manusia dan juga bagi membantu dalam pendapatan negara. Di dalam sektor akuakultur, telah terdapat banyak inovasi dan ciptaan bagi membantu dalam pengeluaran sektor ini. Antaranya adalah penggunaan sistem inkubator dalam penternakan ikan. Inkubator lazimnya adalah sebuah alat yang menggantikan tugas pengeraman oleh induk haiwan yang mana ia mempunyai satu sistem kawalan bagi mengawal kelembapan, suhu dan keadaan lain yang diperlukan bagi menetaskan telur sesuatu haiwan itu (Anizam Agro Farm Enterprise, 1997). Pada zaman kini, telah banyak pendedahan yang dilakukan ke atas ciptaan ini oleh pelbagai pihak kepada orang ramai. Antaranya ialah Program Inkubator Akuakultur yang dilaksanakan oleh Jabatan Perikanan Malaysia. Dalam program yang berlangsung selama 3 tahun ini, para peserta akan didedahkan dengan cara pengasihan benih anak ikan termasuk tatacara penggunaan sistem inkubator (Jabatan Perikanan Malaysia, 2021). 
+     Di samping adanya sistem inkubator ini, pemerhatian dan pengawasan terhadap perkembangan telur ikan di dalam balang inkubator perlulah dilakukan secara kerap. Ini termasuk dari segi perubahan parameter air yang memainkan peranan penting dalam penetasan telur ikan. Sebagai contoh, suhu dalam air yang tidak teratur akan mengganggu penetasan telur dan pembiakannya (Aquaculture Resource Centre, 2007). Pemerhatian terhadap perkembangan anak ikan juga haruslah diambil berat. Sebagai contoh, penetasan anak ikan dari telurnya, kehilangan kantung telurnya dan juga gerak geri anak ikan tersebut. Secara konklusi, sistem inkubator sedia ada di pasaran adalah sangat bagus, namun penambahbaikan boleh dilakukan bagi menambah keberkesanan sistem inkubator tersebut.  .
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Objektif</h3>
+    <p class="w3-wide">1)Untuk menghasilkan sistem pemantauan inkubasi benih ikan tilapia dengan konsep Internet of Things (IoT).
+</p>
+    <p class="w3-wide">2)Untuk memantau corak tingkah laku benih ikan tilapia dengan menggunakan sistem RT-CANE Tilapia Incubator System.</p>
+    <p class="w3-wide">3)Untuk mengumpul data kualiti air sistem inkubasi benih ikan tilapia dengan menggunakan sistem RT-CANE Tilapia Incubator System.</p>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-white">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">pH</span><br>
+        6.5-8.5
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Temperature</span><br>
+        25-28 celcius
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Camera</span><br>
+        Real time
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Next
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Ciri-ciri Oreochromis Niloticus</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Dewasa</li>
+          <li class="w3-padding-16">Popular & tahan lasak (ekologi)</li>
+          <li class="w3-padding-16">Bentuk badan yang lebar dan mampat</li>
+          <li class="w3-padding-16">Sisik cycloid</li>
+          <li class="w3-padding-16">Omnivor</li>
+          <li class="w3-padding-16">
+            <h2>RM6</h2>
+            <span class="w3-opacity">per kg</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Benih</li>
+          <li class="w3-padding-16">Telur diperam di dalam mulut induk</li>
+          <li class="w3-padding-16">Mudah mati</li>
+          <li class="w3-padding-16">Perlu dimasukkan di dalam inkubator</li>
+          <li class="w3-padding-16">Bergantung dengan kantung makanan</li>
+          <li class="w3-padding-16">
+            <h2>RM0.40</h2>
+            <span class="w3-opacity">per inci</span>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Mohd Hafizzie bin Hajini.</span>(Supervisor)</p>
+    <p>Chief Executive Manager.</p><br>
+	
+    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Elmaxron Timpas.</span></p>
+    <p>Chief Operating Officer.</p><br>
+    
+    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Mohamad Najib bin Jiman.</span></p>
+    <p>Chief Data Officer.</p>
+	
+	<img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Muhamad Arief Azmie bin Yusuf.</span></p>
+    <p>Chief Technology Officer.</p>
+	
+	<img src="C:\Users\hafizzie\Pictures\careen.jpg" alt="Gambar Careen" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Careen Ak Cosmas.</span></p>
+    <p>Chief Financial Officer.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/chef.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/p6.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+</body>
+</html>
 
